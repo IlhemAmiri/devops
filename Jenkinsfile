@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/IlhemAmiri/devops',
+                    url: 'https://github.com/IlhemAmiri/devops.git',
                     credentialsId: 'github'
             }
         }
