@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/IlhemAmiri/jenkins_test',
+                    url: 'https://github.com/IlhemAmiri/devops',
                     credentialsId: 'github'
             }
         }
